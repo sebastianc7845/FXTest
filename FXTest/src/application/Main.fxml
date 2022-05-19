@@ -3,15 +3,10 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
    <children>
-      <Label alignment="CENTER" layoutX="1.0" layoutY="30.0" prefHeight="97.0" prefWidth="600.0" text="This is a window made with SceneBuilder" textAlignment="CENTER" wrapText="true">
-         <font>
-            <Font name="Eras Demi ITC" size="34.0" />
-         </font>
-      </Label>
-      <TextField layoutX="226.0" layoutY="245.0" onKeyPressed="#printText" promptText="Type stuff..." />
+      <TextField fx:id="field" layoutX="226.0" layoutY="245.0" onKeyPressed="#printText" promptText="Type stuff..." />
+      <Label fx:id="headingLabel" layoutY="39.0" prefHeight="17.0" prefWidth="600.0" text="This window was made with SceneBuilder" />
    </children>
 </AnchorPane>
