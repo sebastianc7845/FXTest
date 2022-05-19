@@ -1,0 +1,6 @@
+#headingLabel {
+	-fx-font-size: 45;
+	-fx-font-family: "Times New Roman";
+	-fx-text-alignment: "center";
+	-fx-wrap-text: "true"; 
+}

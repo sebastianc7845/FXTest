@@ -7,6 +7,6 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
    <children>
       <TextField fx:id="field" layoutX="226.0" layoutY="245.0" onKeyPressed="#printText" promptText="Type stuff..." />
-      <Label fx:id="headingLabel" layoutY="39.0" prefHeight="17.0" prefWidth="600.0" text="This window was made with SceneBuilder" />
+      <Label fx:id="headingLabel" layoutY="39.0" prefWidth="600.0" text="This window was made with SceneBuilder" />
    </children>
 </AnchorPane>
